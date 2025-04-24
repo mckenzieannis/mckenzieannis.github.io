@@ -8,7 +8,7 @@
 body {
     background-color: red;
 }
-
+/* i dont know how to make this not scroll, but lett eh boxed scroll */
 h1 {
     font-family: "tapetura-regular";
     font-size: 152px;
@@ -25,7 +25,7 @@ h1 {
     width: 100%;
     scroll-behavior: fixed;
 }
-       
+ /* i dont know how to make this paragraph centered on the page */      
 p{
 color: #FFF;
 position: absolute;
@@ -39,13 +39,18 @@ font-weight: 400;
 line-height: 44px;
 margin-top: 550px;
 }
+
+/* i dont know how to put a picture into these boxes */
 .box1{
     background-color:rgb(183, 183, 183);
     width:20vw;
     height:20vw;
     position:absolute;
-    left: 25px;
+    left: 100px;
     top: 20px;
+}
+.box1:hover{
+    background-color: lightblue;
 }
 
 .box2{
@@ -56,6 +61,10 @@ margin-top: 550px;
     right: 10px;
     top: 50px;
 }
+.box2:hover:hover{
+    background-color: lightblue;
+}
+
 .box3{
     background-color:rgb(183, 183, 183);
     width:20vw;
@@ -64,6 +73,10 @@ margin-top: 550px;
     right: 500px;
     top: 600px;
 }
+.box3:hover{
+    background-color: lightblue;
+}
+
 .box4{
     background-color:rgb(183, 183, 183);
     width:20vw;
@@ -71,4 +84,7 @@ margin-top: 550px;
     position:absolute;
     left: 300px;
     top: 1000px;
+}
+.box4:hover{
+    background-color: lightblue;
 }
