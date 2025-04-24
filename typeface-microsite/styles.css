@@ -19,18 +19,16 @@ h1 {
     left: 0;
     line-height: 90%;
     margin-top: -200px;
-    position: absolute;
+    position: fixed;
     text-align: center;
     top: 50%;
     width: 100%;
-    scroll-behavior: fixed;
 }
  /* i dont know how to make this paragraph centered on the page */      
 p{
 color: #FFF;
-position: absolute;
+position: fixed;
 margin: auto;
-width: 1279.106px;
 text-align: center;
 font-family: "tapetura-regular";
 font-size: 36px;
