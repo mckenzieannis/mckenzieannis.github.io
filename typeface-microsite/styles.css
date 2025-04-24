@@ -9,21 +9,66 @@ body {
     background-color: red;
 }
 
-    h1 {
-        font-family: "tapetura-regular";
-        font-size: 35vw;
-        letter-spacing: 2px;
-        text-transform: uppercase;
-        padding-left: 12px;
-        color: white;
-        text-align: center;
-        font-weight: normal;
-        margin: 0px;
-    }
-
+h1 {
+    font-family: "tapetura-regular";
+    font-size: 152px;
+    letter-spacing: 2px;
+    text-transform: lowercase;
+    color: white;
+    font-weight: normal;
+    left: 0;
+    line-height: 90%;
+    margin-top: -200px;
+    position: absolute;
+    text-align: center;
+    top: 50%;
+    width: 100%;
+    scroll-behavior: fixed;
+}
+       
+p{
+color: #FFF;
+position: absolute;
+margin: auto;
+width: 1279.106px;
+text-align: center;
+font-family: "tapetura-regular";
+font-size: 36px;
+font-style: normal;
+font-weight: 400;
+line-height: 44px;
+margin-top: 550px;
+}
 .box1{
-    background-color:white;
-    width:260px;
-    height:260px;
+    background-color:rgb(183, 183, 183);
+    width:20vw;
+    height:20vw;
+    position:absolute;
+    left: 25px;
+    top: 20px;
 }
 
+.box2{
+    background-color:rgb(183, 183, 183);
+    width:20vw;
+    height:20vw;
+    position:absolute;
+    right: 10px;
+    top: 50px;
+}
+.box3{
+    background-color:rgb(183, 183, 183);
+    width:20vw;
+    height:20vw;
+    position:absolute;
+    right: 500px;
+    top: 600px;
+}
+.box4{
+    background-color:rgb(183, 183, 183);
+    width:20vw;
+    height:20vw;
+    position:absolute;
+    left: 300px;
+    top: 1000px;
+}
