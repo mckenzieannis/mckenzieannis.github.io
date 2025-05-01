@@ -49,13 +49,13 @@ left: calc(50% - 75vw / 2);
     top: 20px;
 }
 .special-text {
-  top: -21vw;
+  top: -22vw;
     position: relative;
     text-align: center;
     opacity: 0;
     font-family: "tapetura-regular";
     color: white;
-    font-size: 6vw;
+    font-size: 5.5vw;
     line-height: 90%;
 }
 
@@ -106,17 +106,5 @@ left: calc(50% - 75vw / 2);
 
 .box3:hover img {
     filter: blur(5px);
-}
-
-.box4{
-    background-color:rgb(183, 183, 183);
-    width:20vw;
-    height:20vw;
-    position:absolute;
-    left: 250px;
-    top: 1700px;
-}
-.box4:hover{
-    background-color: lightblue;
 }
 
