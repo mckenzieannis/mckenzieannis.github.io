@@ -25,7 +25,7 @@ h1 {
     width: 100%;
 }
  /* i dont know how to make this paragraph centered on the page */      
-p{
+.tagline{
 color: #FFF;
 position: fixed;
 margin: auto;
@@ -36,43 +36,76 @@ font-style: normal;
 font-weight: 400;
 line-height: 44px;
 margin-top: 550px;
+width: 75vw;
+left: calc(50% - 75vw / 2);
 }
 
 /* i dont know how to put a picture into these boxes */
 .box1{
-    background-color:rgb(183, 183, 183);
     width:20vw;
-    height:20vw;
+    height:18vw;
     position:absolute;
     left: 100px;
     top: 20px;
 }
-.box1:hover{
-    background-color: lightblue;
+.special-text {
+  top: -21vw;
+    position: relative;
+    text-align: center;
+    opacity: 0;
+    font-family: "tapetura-regular";
+    color: white;
+    font-size: 6vw;
+    line-height: 90%;
 }
 
-.box2{
-    background-color:rgb(183, 183, 183);
-    width:20vw;
-    height:20vw;
-    position:absolute;
-    right: 10px;
-    top: 50px;
+.box1 img {
+    width: 100%;
 }
-.box2:hover:hover{
-    background-color: lightblue;
+.box1:hover .special-text {
+    opacity: 1;
+}
+
+.box1:hover img {
+    filter: blur(5px);
+}
+
+
+.box2{
+    width:20vw;
+    height:18vw;
+    position:absolute;
+    right: 60px;
+    top: 500px;
+}
+.box2 img {
+    width: 100%;
+}
+.box2:hover .special-text {
+    opacity: 1;
+}
+
+.box2:hover img {
+    filter: blur(5px);
 }
 
 .box3{
     background-color:rgb(183, 183, 183);
     width:20vw;
-    height:20vw;
+    height:17vw;
     position:absolute;
-    right: 500px;
-    top: 600px;
+    right: 300px;
+    top: 1200px;
 }
-.box3:hover{
-    background-color: lightblue;
+.box3 img {
+    width: 100%;
+}
+.box3:hover .special-text {
+    opacity: 1;
+}
+
+.box3:hover img {
+    filter: blur(5px);
 }
 
 .box4{
@@ -80,9 +113,10 @@ margin-top: 550px;
     width:20vw;
     height:20vw;
     position:absolute;
-    left: 300px;
-    top: 1000px;
+    left: 250px;
+    top: 1700px;
 }
 .box4:hover{
     background-color: lightblue;
 }
+
